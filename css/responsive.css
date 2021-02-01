@@ -1,0 +1,879 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .reporting_wrapp {
+        margin-left: 59px;
+    }
+/*     .reporting_wrapp h4 {
+        font-size: 21px;
+    }
+    .reporting_wrapp p {
+        padding-right: 66px;
+    } */
+    .section_content {
+        margin-bottom: 75px;
+    }
+    .section_content {
+        width: 43%;
+    }
+    .cloud_contentRight .contentFour {
+        width: 145%;
+    }
+    .security_area .single_content p {
+        width: 99%;
+    }
+    .approach_area .section_content {
+        width: 56%;
+    }
+    .pentesting_area .section_content {
+        width: 45%;
+    }
+    .pentesting_area .single_content.custom_pw p {
+        width: 101%;
+    }
+    .history_area .section_content {
+        width: 44%;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .reporting_area .section_content {
+        padding-bottom: 54px;
+        width: 44%;
+    }
+    .reporting_wrapp h4 {
+        font-size: 18px;
+    }
+    .reporting_wrapp p {
+        padding-right: 43px;
+    }
+    .cloud_bg {
+        background-size: contain;
+    }
+    .cloud_area .section_content {
+        width: 46%;
+    }
+    .cloud_contentRight .contentThree {
+        margin-top: 16px;
+        width: 118%;
+    }
+    .cloud_contentRight .contentFour {
+        margin-top: 0;
+        width: 139%;
+    }
+    .security_area .section_content {
+        width: 52%;
+    }
+    .security_area .col-5.px-0.custm_p {
+        padding: 0 15px !important;
+    }
+    .security_area .single_content h4, p {
+        font-size: 21px;
+    }
+    .security_area .single_content p {
+        width: 96%;
+    }
+    .approach_area .section_content {
+        width: 67%;
+    }
+    .pentesting_area .section_content {
+        width: 56%;
+    }
+    .pentesting_area .single_content.custom_pw p {
+        width: 99%;
+    }
+    .pentesting_area .mt-80,.mt {
+        margin-top: 49px;
+    }
+    .history_area .comon_style {
+        width: 38%;
+    }
+    .history_area .section_content {
+        width: 53%;
+    }
+    .footer_area .footer_logo a img {
+        width: 71%;
+    }
+    .footer_area a.privacy_note {
+        font-size: 21px;;
+    }
+    .footer_area .footer_contact span {
+        padding-right: 45px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.5);
+        border-color: rgba(255, 255, 255, 0.91);
+    }
+    .navbar-toggler {
+        position: absolute;
+        top: 20px;
+        right: 168px;
+        padding: 3px 11px;
+        margin-top: 12px;
+        width: 7%;
+        height: 36px;
+    }
+    .navbar-light .navbar-toggler-icon {
+        position: relative;
+    }
+    .navbar-light .navbar-toggler-icon .line1 {
+        position: absolute;
+        width: 92%;
+        height: 5px;
+        background: #fff;
+        left: -3px;
+        top: 2px;
+        border-radius: 2px;
+    }  
+    .navbar-light .navbar-toggler-icon .line2 {
+        position: absolute;
+        width: 92%;
+        height: 5px;
+        background: #fff;
+        left: -3px;
+        top: 12px;
+        border-radius: 2px;
+    }
+    .navbar-light .navbar-toggler-icon .line3 {
+        position: absolute;
+        width: 92%;
+        height: 5px;
+        background: #fff;
+        left: -3px;
+        top: 22px;
+        border-radius: 2px;
+    }
+    .navbar .navbar-nav {
+        margin-right: 176px;
+        background: #151515;
+        padding: 10px 0 0 10px;
+        width: 53%;
+        position: relative;
+        left: -149px;
+    }  
+    .navbar .navbar-nav .nav-item {
+        margin-bottom: 15px;
+    }
+
+    .hero_content {
+        position: absolute;
+        left: 0;
+        top: -105px;
+    }
+    .hero_content h1 {
+        font-size: 51px;
+        line-height: 72px;
+    }
+    .reporting_area .section_content {
+        width: 44%;
+        padding-bottom: 38px;
+    }
+    .reporting_wrapp {
+        width: 43%;
+    }
+    .reporting_wrapp h4 {
+        font-size: 17px;
+    }
+    .reporting_wrapp p {
+        font-size: 14px;
+        padding-right: 15px;
+    }
+    .cloud_area .section_content {
+        width: 59%;
+    }
+    .cloud_bg {
+        background-size: contain;
+    }
+    .cloud_contentLeft {
+        float: left;
+        width: 30%;
+        margin-top: 0;
+        position: relative;
+        top: 163px;
+    }
+    .cloud_contentLeft .contentOne {
+        margin-left: 103px;
+        width: 100%;
+        margin-top: 12px;
+    }
+    .cloud_contentLeft .contentTwo {
+        margin-left: 101px;
+        width: 100%;
+        margin-top: 0;
+    }
+    .cloud_wrapper h4 {
+        font-size: 14px;
+    }
+    .cloud_wrapper p {
+        font-size: 11px;
+    }
+    .cloud_image {
+        float: left;
+        position: relative;
+        width: 40%;
+        top: -10px;
+        right: -10px;
+    }
+    .cloud_contentRight {
+        float: left;
+        width: 30%;
+        margin-top: 0;
+        position: relative;
+        top: 163px;
+    }
+    .cloud_contentRight .contentThree {
+        margin-top: 0px;
+        width: 100%;
+        margin-left: -40px;
+    }
+    .cloud_contentRight .contentFour {
+        margin-top: 0;
+        width: 100%;
+        margin-left: -103px;
+    }
+
+    .security_area .section_content {
+        width: 67%;
+    }
+    .security_area .single_content p {
+        width: 96%;
+    }
+    .approach_area .section_content {
+        width: 71%;
+    }
+    .approach_area .approach_content .approach_text h4 {
+        font-size: 17px;
+    }
+    .approach_area .approach_content .approach_text ul {
+        padding-top: 50px;
+    }
+    .pentesting_area .section_content {
+        width: 67%;
+    }
+    .pentesting_area .section_content .section_content h2 {
+        font-size: 31px;
+    }
+    .pentesting_area .single_content h4 {
+        font-size: 22px;
+    }
+    .pentesting_area .single_img {
+        margin-top: 52px;
+    }
+    .pentesting_area .mt {
+        margin-top: 65px;
+    }
+    .pentesting_area .single_content.custom_pw p {
+        width: 100%;
+    }
+    .history_area .history_wrap {
+        position: absolute;
+        top: -187px;
+    }
+    .history_area .section_content {
+        width: 46%;
+        margin-left: 13px;
+    }
+    .section_content h2 {
+        font-size: 22px;
+        line-height: 38px;
+        margin-bottom: 9px;
+    }
+    .history_area .section_content p {
+        font-size: 12px;
+        width: 100%;
+    }
+    .footer_logo img {
+        width: 70%;
+    }
+    .footer_area a.privacy_note {
+        font-size: 14px;
+        line-height: 60px;
+    }
+    .footer_area .footer_contact {
+        margin-left: 6px;
+        margin-top: 21px;
+    }
+    .footer_area .footer_contact h4{
+        font-size: 21px;
+    }
+    .footer_area .footer_contact h4.pb-25 {
+        padding-bottom: 13px;
+    }
+    .footer_area .footer_contact span {
+        font-size: 13px;
+        padding-right: 0;
+    }
+    .footer_area .footer_contact span.mb-25 {
+        margin-bottom: 10px;
+    }
+    .copyright_text {
+        padding-top: 15px;
+    } 
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.5);
+        border-color: rgba(255, 255, 255, 0.91);
+    }
+    .navbar-toggler {
+        position: absolute;
+        top: 20px;
+        right: 168px;
+        padding: 3px 11px;
+        margin-top: 12px;
+        width: 9%;
+        height: 36px;
+    }
+    .navbar-light .navbar-toggler-icon {
+        position: relative;
+    }
+    .navbar-light .navbar-toggler-icon .line1 {
+        position: absolute;
+        width: 92%;
+        height: 5px;
+        background: #fff;
+        left: -3px;
+        top: 2px;
+        border-radius: 2px;
+    }  
+    .navbar-light .navbar-toggler-icon .line2 {
+        position: absolute;
+        width: 92%;
+        height: 5px;
+        background: #fff;
+        left: -3px;
+        top: 12px;
+        border-radius: 2px;
+    }
+    .navbar-light .navbar-toggler-icon .line3 {
+        position: absolute;
+        width: 92%;
+        height: 5px;
+        background: #fff;
+        left: -3px;
+        top: 22px;
+        border-radius: 2px;
+    }
+    .navbar .navbar-nav {
+        margin-right: 176px;
+        background: #151515;
+        padding: 10px 0 0 10px;
+        width: 53%;
+        position: relative;
+        left: -62px;
+    }  
+    .navbar .navbar-nav .nav-item {
+        margin-bottom: 15px;
+    }
+    .hero_content {
+        top: -78px;
+    }
+    .hero_content h1 {
+        font-size: 38px;
+        line-height: 51px;
+    }
+    .hero_content p {
+        font-size: 19px;
+    }
+    .reporting_wrapp {
+        width: 40%;
+    }
+    .reporting_wrapp .single_reporting {
+        padding: 10px 0 10px 32px;
+    }
+    .reporting_wrapp h4 {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .reporting_wrapp p {
+        font-size: 13px;
+        padding-right: 24px;
+    }
+    .reporting_area .section_content {
+        width: 44%;
+        padding-bottom: 101px;
+    }
+    .reporting_area .section_content h2 {
+        font-size: 25px;
+        margin-bottom: 8px;
+    }
+    .reporting_area .section_content p {
+        font-size: 15px;
+        padding-bottom: 32px;
+    }
+    .cloud_area .section_content {
+        width: 60%;
+    }
+    .cloud_area .section_content h2 {
+        font-size: 26px;
+        margin-bottom: 8px;
+    }
+    .cloud_bg {
+        background-size: contain;
+        margin-bottom: -196px;
+        margin-top: -159px;
+    }
+    .cloud_contentLeft {
+        float: left;
+        width: 30%;
+        margin-top: 0;
+        position: relative;
+        top: 163px;
+    }
+    .cloud_contentLeft .contentOne {
+        margin-left: 69px;
+        width: 100%;
+        margin-top: 58px;
+    }
+    .cloud_contentLeft .contentTwo {
+        margin-left: 101px;
+        width: 100%;
+        margin-top: 0;
+    }
+    .cloud_wrapper h4 {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .cloud_wrapper p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .cloud_image {
+        float: left;
+        position: relative;
+        width: 40%;
+        top: 72px;
+        right: -10px;
+    }
+    .cloud_contentRight {
+        float: left;
+        width: 30%;
+        margin-top: 0;
+        position: relative;
+        top: 211px;
+    }
+    .cloud_contentRight .contentThree {
+        margin-top: 0px;
+        width: 100%;
+        margin-left: -40px;
+    }
+    .cloud_contentRight .contentFour {
+        margin-top: 0;
+        width: 100%;
+        margin-left: -103px;
+    }
+    .security_area .section_content {
+        width: 86%;
+    }
+    .security_area .section_content h2 {
+        font-size: 32px;
+    }
+    .security_area .single_content {
+        margin-bottom: 53px;
+        text-align: center;
+    }
+    .security_area .single_content p {
+        width: 100%;
+        padding: 0 32px;
+    }
+    .security_area .security_image {
+        position: static;
+        text-align: center;
+    }
+    .approach_area .section_content {
+        width: 60%;
+    }
+    .approach_area .offset-2 {
+        margin-left: 50px;
+    }
+    .approach_area .section_content h2 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .approach_area .approach_content .approach_text h4 {
+        font-size: 15px;
+        line-height: 21px;
+        width: 100%;
+    }
+    .approach_area .approach_content .approach_text ul {
+        padding-top: 34px;
+    }
+    .approach_area .approach_content .approach_text ul li {
+        font-size: 12px;
+    }
+    .pentesting_area .section_content {
+        width: 60%;
+    }
+    .pentesting_area .section_content h2 {
+        font-size: 21px;
+        line-height: 31px;
+    }
+    .pentesting_area .single_img {
+        text-align: center;
+        margin-top: 25px;
+    }
+    .pentesting_area .custom_wid img {
+        width: auto;
+        margin-top: 34px;
+    }
+    .pentesting_area .sm-mt {
+        margin-top: 80px;
+    }
+    .pentesting_area .single_content.custom_pw p {
+        width: 100%;
+        padding: 0 12px;
+    }
+    .history_area .section_content {
+        float: left;
+        width: 49%;
+        margin-left: 13px;
+    }
+    .history_area .section_content h2 {
+        font-size: 17px;
+        line-height: 14px;
+    }
+    .history_area .section_content p {
+        font-size: 11px;
+        width: 100%;
+        padding-bottom: 12px;
+        line-height: 18px;
+    }
+    .footer_area a.privacy_note {
+        font-size: 17px;
+        line-height: 65px;
+    }
+    .footer_area .footer_contact {
+        margin-top: 24px;
+    }
+    .footer_area .footer_contact h4, span {
+        font-size: 20px;
+    }
+    .footer_area .footer_contact span {
+        font-size: 12px;
+        line-height: 18px;
+        padding-right: 23px;
+    }
+    .footer_area .mb-25 {
+        margin-bottom: 14px;
+    }
+    .footer_area .copyright_text p {
+        font-size: 15px;
+        line-height: 22px;
+        padding-top: 14px;
+    }
+
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.5);
+        border-color: rgba(255, 255, 255, 0.91);
+    }
+    .navbar-toggler {
+        position: absolute;
+        top: 20px;
+        right: 155px;
+        padding: 3px 11px;
+        margin-top: 12px;
+        width: 14%;
+        height: 36px;
+    }
+    .navbar-light .navbar-toggler-icon {
+        position: relative;
+    }
+    .navbar-light .navbar-toggler-icon .line1 {
+        position: absolute;
+        width: 92%;
+        height: 5px;
+        background: #fff;
+        left: -3px;
+        top: 2px;
+        border-radius: 2px;
+    }  
+    .navbar-light .navbar-toggler-icon .line2 {
+        position: absolute;
+        width: 92%;
+        height: 5px;
+        background: #fff;
+        left: -3px;
+        top: 12px;
+        border-radius: 2px;
+    }
+    .navbar-light .navbar-toggler-icon .line3 {
+        position: absolute;
+        width: 92%;
+        height: 5px;
+        background: #fff;
+        left: -3px;
+        top: 22px;
+        border-radius: 2px;
+    }
+    .navbar .navbar-nav {
+        margin-right: 176px;
+        background: no-repeat;
+        padding: 10px 0 0 10px;
+        width: 53%;
+        position: relative;
+        left: 5px;
+    } 
+    .navbar .navbar-nav .nav-item {
+        margin-bottom: 15px;
+    }
+    .hero_content {
+        top: -28px;
+        text-align: center;
+    }
+    .hero_content h1 {
+        font-size: 21px;
+        line-height: 29px;
+        padding: 0 22px;
+    }
+    .hero_content p {
+        font-size: 13px;
+        text-align: justify;
+        padding: 0 35px;
+        line-height: 22px;
+    }
+    .reporting_wrapp {
+        width: 40%;
+    }
+    .reporting_wrapp .single_reporting {
+        padding: 10px 0 10px 19px;
+    }
+    .reporting_wrapp h4 {
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .reporting_wrapp p {
+        font-size: 9px;
+        padding-right: 10px;
+        line-height: 15px;
+    }
+    .reporting_area .section_content {
+        width: 44%;
+        padding-bottom: 52px;
+    }
+    .reporting_area .section_content h2 {
+        font-size: 14px;
+        margin-bottom: -7px;
+    }
+    .reporting_area .section_content p {
+        font-size: 11px;
+        padding-bottom: 32px;
+    }
+    .cloud_area .section_content {
+        width: 60%;
+    }
+    .cloud_area .section_content h2 {
+        font-size: 14px;
+        margin-bottom: 1px;
+    }
+    .cloud_area .section_content p {
+        font-size: 12px;
+    }
+    .cloud_bg {
+        background: none;
+        margin-top: -152px;
+    }
+    .cloud_contentLeft {
+        float: left;
+        width: 30%;
+        margin-top: 0;
+        position: relative;
+        top: 163px;
+    }
+    .cloud_contentLeft .contentOne {
+        margin-left: 11px;
+        width: 100%;
+        margin-top: 59px;
+    }
+    .cloud_contentLeft .contentTwo {
+        margin-left: 9px;
+        width: 100%;
+        margin-top: 0;
+    }
+    .cloud_wrapper h4 {
+        font-size: 12px;
+        line-height: 29px;
+        color: #fff;
+    }
+    .cloud_wrapper p {
+        font-size: 10px;
+        line-height: 14px;
+        color: #fff;
+    }
+    .cloud_image {
+        float: left;
+        position: relative;
+        width: 40%;
+        top: 81px;
+        right: 11px;
+    }
+    .cloud_contentRight {
+        float: left;
+        width: 30%;
+        margin-top: 0;
+        position: relative;
+        top: 211px;
+    }
+    .cloud_contentRight .contentThree {
+        margin-top: 0px;
+        width: 100%;
+        margin-left: -29px;
+    }
+    .cloud_contentRight .contentFour {
+        margin-top: 0;
+        width: 100%;
+        margin-left: -30px;
+    }
+    .security_area .section_content {
+        width: 86%;
+    }
+    .security_area .section_content h2 {
+        font-size: 16px;
+    }
+    .security_area .single_content {
+        margin-bottom: 53px;
+        text-align: center;
+    }
+    .security_area .single_content h4{
+        font-size: 18px;
+    }
+    .security_area .single_content p {
+        width: 100%;
+        padding: 0 32px;
+        font-size: 14px;
+    }
+    .security_area .security_image {
+        position: static;
+        text-align: center;
+    }
+    .security_area .xm-w {
+        padding: 0 19px !important;
+    }
+    .security_area .custom_p {
+        width: 94%;
+    }
+    .approach_area .section_content {
+        width: 60%;
+    }
+    .approach_area .offset-2 {
+        margin-left: 50px;
+    }
+    .approach_area .section_content h2 {
+        font-size: 10px;
+        line-height: 9px;
+    }
+    .section_content p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .approach_area .approach_content .approach_text {
+        padding-left: 0;
+    }
+    .approach_area .approach_content .approach_text h4 {
+        font-size: 14px;
+        line-height: 16px;
+        width: 100%;
+        left: 0;
+    }
+    .approach_area .approach_content .approach_text ul {
+        padding-top: 34px;
+    }
+    .approach_area .approach_content .approach_text ul li {
+        font-size: 10px;
+    }
+    .pentesting_area .section_content {
+        width: 60%;
+    }
+    .pentesting_area .section_content h2 {
+        font-size: 12px;
+        line-height: 13px;
+    }
+    .pentesting_area  .section_content p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .pentesting_area .single_img {
+        text-align: center;
+        margin-top: 25px;
+    }
+    .pentesting_area .custom_wid img {
+        width: auto;
+        margin-top: 34px;
+    }
+    .pentesting_area .sm-mt {
+        margin-top: 80px;
+    }
+    .pentesting_area .single_content p {
+        font-size: 13px;
+    }
+    .pentesting_area .single_content.custom_pw p {
+        width: 100%;
+        padding: 0 12px;
+    }
+    .history_area .section_content {
+        float: left;
+        width: 49%;
+        margin-left: 13px;
+    }
+    .history_area .section_content h2 {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .history_area .section_content p {
+        font-size: 9px;
+        width: 100%;
+        padding-bottom: 12px;
+        line-height: 12px;
+    }
+    .footer_logo {
+        text-align: center;
+        margin-top: 100px;
+    }
+    .footer_logo img {
+        width: 43%;
+    }
+    .footer_area a.privacy_note {
+        font-size: 17px;
+        line-height: 65px;
+        text-align: center;
+        display: block;
+    }
+    .footer_area .footer_contact {
+        margin-top: 0;
+        text-align: center;
+    }
+    .footer_area .footer_contact h4, span {
+        font-size: 20px;
+    }
+    .footer_area .footer_contact span {
+        font-size: 12px;
+        line-height: 18px;
+        padding-right: 23px;
+        display: block;
+    }
+    .footer_area .mb-25 {
+        margin-bottom: 14px;
+    }
+    .footer_area .copyright_text p {
+        font-size: 9px;
+        line-height: 22px;
+        padding-top: 14px;
+    }
+}
+
+
+
